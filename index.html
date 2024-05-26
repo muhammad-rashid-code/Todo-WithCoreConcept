@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1-Todo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="inputDiv">
+      <input type="text" name="input-Todo" class="input-todo" />
+      <button onclick="addTodo()">Add</button>
+    </div>
+    <div id="editDiv" class="hide">
+      <input type="text" name="edit-todo" class="edit-todo" />
+      <button onclick="updateTodo()">Save</button>
+    </div>
+    <ol></ol>
+    <script src="./app.js"></script>
+  </body>
+</html>
